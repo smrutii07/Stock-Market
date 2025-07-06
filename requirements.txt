@@ -1,5 +1,6 @@
 dash==2.15.0
 pandas==1.5.3
+numpy==1.26.4
 plotly>=5.0.0
 gunicorn
 pyarrow
