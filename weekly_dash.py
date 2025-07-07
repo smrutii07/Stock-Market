@@ -21,6 +21,7 @@ custom_colors = ["#0f5499", "#9e2f50", "#6a737b", "#ffbc42", "#005f73", "#b08968
 
 # Initialize app
 app = Dash(__name__)
+server = app.server  
 
 app.layout = html.Div(
     style={"backgroundColor": "#fcd0b1", "minHeight": "100vh", "paddingBottom": "80px"},
